@@ -24,8 +24,6 @@ app.use((req, res, next) => {
     next();
 });
 
-
-
 //Añadir prefijos a rutas / cargar rutas
 app.use('/',article_routes);
 

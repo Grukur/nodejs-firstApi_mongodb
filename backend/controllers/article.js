@@ -1,7 +1,5 @@
 'use strict'
 
-
-
 let validator = require('validator');
 let Article = require('../models/article');
 let fs = require('fs');
